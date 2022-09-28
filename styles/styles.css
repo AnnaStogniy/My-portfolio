@@ -1,3 +1,35 @@
-h1{
-    font-family: 'Lato', sans-serif;
+body {
+    font-family: "Poppins", sans-serif;
+}
+
+ h1{
+    font-family: "Playfair Display", serif;
+    font-size: 96px;
+}
+
+.greeting{
+font-size: 36px;
+}
+
+.hero{
+    display: block;
+text-align: center;
+background-color: #f9f7fe;
+padding: 160px 20px;
+}
+
+.description{
+    margin-bottom: 60px;
+    font-size: 24px;
+
+}
+.btn-branding{
+    background-color: #6c63ff;
+padding: 15px 30px;
+text-decoration: none;
+color: white;
+}
+
+.btn-branding:hover{
+    background-color: #8045fd;
 }
