@@ -1,38 +1,91 @@
-body {
-    font-family: "Poppins", sans-serif;
-}
-
- h1, h2{
-    font-family: "Playfair Display", serif;
-    font-size: 96px;
-}
-
-h2{
-    font-size: 48px;
-}
-.greeting{
-font-size: 36px;
-}
-
-.hero{
-    display: block;
-text-align: center;
+:root {
+    --primary-color: #6c63ff;
+    --secondary-color: #f5f2fe;
+    --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+  }
+  
+  body {
+  font-family:   "Poppins", sans-serif;
+  }
+  
+  .hero{
 background-color: #f9f7fe;
 padding: 160px 20px;
-}
+  }
 
-.description{
-    margin-bottom: 60px;
+  h1,
+  h2,
+  h3 {
+    font-family: "Playfair Display", serif;
+    text-align: center;
+    margin: 0;
+  }
+  
+  h1 {
+    font-size: 96px;
+  }
+  
+  h2 {
+    font-size: 48px;
+  }
+  
+  h3 {
     font-size: 24px;
-
-}
-.btn-branding{
-    background-color: #6c63ff;
-padding: 15px 30px;
-text-decoration: none;
-color: white;
-}
-
-.text-description{
-    opacity: 60%;
-}
+    opacity: 0.7;
+  }
+  
+  .navigation-links {
+    display: flex;
+    margin-top: 40px;
+    justify-content: center;
+  }
+  
+  .navigation-links a {
+    margin: 20px;
+    border-radius: 4px;
+    padding: 20px 15px;
+    text-decoration: none;
+    text-transform: capitalize;
+  }
+  
+  .contact-link {
+    background: var(--primary-color);
+    box-shadow: var(--box-shadow);
+    color: white;
+  }
+  
+  .about-link {
+    color: var(--primary-color);
+    border: 1px solid var(--primary-color);
+  }
+  
+  .homepage-link {
+    color: var(--primary-color);
+    text-align: center;
+    display: block;
+  }
+  
+  .email-link {
+    display: flex;
+    justify-content: center;
+    color: var(--primary-color);
+    font-size: 28px;
+    text-decoration: none;
+  }
+  
+  .email-link:hover {
+    text-decoration: underline;
+  }
+  
+  .aboutMeText {
+    margin-top: 30px;
+    padding: 0 40px;
+  }
+  
+  .myProjectsPhotos {
+    box-shadow: var(--box-shadow);
+  }
+  
+  .contact-block{
+    margin: 140px 0;
+  }
