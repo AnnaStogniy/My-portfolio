@@ -118,6 +118,32 @@ text-align: start;
     width: 390px;
   }
 
+  .homepage-work h1{
+    font-size: 64px;
+    line-height: 80px;
+    font-weight: bold;
+color: black; 
+font-family: "Playfair Display", serif;
+text-align: start;
+margin-bottom: 40px;
+ }
+
+ .homepage-work h3{
+  font-size: 24px;
+  line-height: 1.5;
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  color: black;
+  opacity: 100%;
+  margin: 10px ;
+ }
+
+ .homepage-work p{
+text-align: center;
+font-size: 16px;
+font-weight: normal;
+ }
+
   @media (max-width: 480px) {
     .homepage-about h1 {
       text-align: center;
@@ -135,4 +161,12 @@ text-align: start;
     padding-top: 60px;
 padding-bottom: 60px;
   }
+
+  .homepage-work h1{
+    text-align: center;
+    font-size: 44px;
+    line-height: 56px;
   }
+  }
+
+ 
