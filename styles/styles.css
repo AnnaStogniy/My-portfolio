@@ -1,3 +1,5 @@
+
+
 :root {
     --primary-color: #6c63ff;
     --secondary-color: #f5f2fe;
@@ -12,6 +14,28 @@
 background-color: #f9f7fe;
 padding: 160px 20px;
   }
+
+.homepage-about h1{
+  font-size: 64px;
+  line-height: 80px;
+  font-weight: bold;
+  text-align: start;
+}
+
+.homepage-about h3{
+font-size: 18px;
+font-family: "Poppins", sans-serif;
+font-weight: bold;
+opacity: 100%;
+text-align: start;
+}
+
+.homepage-about p{
+font-weight: normal;
+font-size: 16px;
+line-height: 30px;
+text-align: start;
+}
 
   h1,
   h2,
@@ -88,4 +112,27 @@ padding: 160px 20px;
   
   .contact-block{
     margin: 140px 0;
+  }
+
+  .myPhotoImage{
+    width: 390px;
+  }
+
+  @media (max-width: 480px) {
+    .homepage-about h1 {
+      text-align: center;
+  }
+
+  .homepage-about h3 {
+    text-align: center;
+}
+
+.homepage-about p {
+  text-align: center;
+}
+
+  .hero{
+    padding-top: 60px;
+padding-bottom: 60px;
+  }
   }
