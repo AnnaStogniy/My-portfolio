@@ -60,7 +60,6 @@ text-align: start;
   
   .navigation-links {
     display: flex;
-    margin-top: 40px;
     justify-content: center;
   }
   
@@ -147,6 +146,7 @@ font-weight: normal;
   @media (max-width: 480px) {
     .homepage-about h1 {
       text-align: center;
+
   }
 
   .homepage-about h3 {
@@ -166,6 +166,14 @@ padding-bottom: 60px;
     text-align: center;
     font-size: 44px;
     line-height: 56px;
+  }
+
+  .get-in-touch{
+padding-left: 20px;
+  }
+
+  .email-link{
+    font-size: 20px;
   }
   }
 
@@ -208,4 +216,27 @@ font-family: "Poppins", sans-serif;;
   .nav-items a{
 padding: 10px;
  }
+}
+
+.footer-text{
+  background-color: #f5f2fe;
+  padding: 30px 0;
+  margin: 150px auto;
+  border-radius: 10px;
+}
+
+.contact-adds{
+  color: #6c63ff;
+  padding: 10px;
+  border-radius: 100%;
+  background-color: #f5f2fe;
+  font-size: 18px;
+  margin: 30px;
+  margin-bottom: 70px;
+}
+
+.contact-adds:hover{
+color: white;
+background-color: #6c63ff;
+
 }
